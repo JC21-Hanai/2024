@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\SceneFactory.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_ja_gryph_ranges.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TitleScene.cpp">
+      <Filter>1.TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\App.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\main.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ObjectManager.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\SceneManager.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Time.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bee.cpp">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goblin.cpp">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Golem.cpp">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Needle.cpp">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RedGoblin.cpp">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BootScene.cpp">
+      <Filter>0.BootScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animator.cpp">
+      <Filter>2.PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>2.PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayScene.cpp">
+      <Filter>2.PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sky.cpp">
+      <Filter>2.PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage.cpp">
+      <Filter>2.PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StageObject.cpp">
+      <Filter>2.PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object3D.cpp">
+      <Filter>9.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transform.cpp">
+      <Filter>9.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>2.PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\csvReader.cpp">
+      <Filter>9.Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Screen.h" />
+    <ClInclude Include="Source\SceneFactory.h" />
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dxlib.hpp">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TitleScene.h">
+      <Filter>1.TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\App.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ObjectManager.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\GameObject.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\SceneManager.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Time.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bee.h">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goblin.h">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Golem.h">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Needle.h">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RedGoblin.h">
+      <Filter>2.PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BootScene.h">
+      <Filter>0.BootScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animator.h">
+      <Filter>2.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>2.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayScene.h">
+      <Filter>2.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sky.h">
+      <Filter>2.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage.h">
+      <Filter>2.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StageObject.h">
+      <Filter>2.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\SceneBase.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\myDxLib.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object3D.h">
+      <Filter>9.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transform.h">
+      <Filter>9.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateBase.h">
+      <Filter>2.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>2.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CsvReader.h">
+      <Filter>9.Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{5fb3f44e-3bfe-4b8c-b744-e3f7e9212b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{6e4e5e47-ba6c-4981-8ba4-82e7e4e89b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.TitleScene">
+      <UniqueIdentifier>{2b5a071d-0fc0-47a1-8d23-b86eff7dd7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.PlayScene">
+      <UniqueIdentifier>{f92b56d2-108f-4288-a710-ea612653dbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.PlayScene\Enemy">
+      <UniqueIdentifier>{4a4dda52-6e27-47ce-a1ff-4d89e559693b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.Common">
+      <UniqueIdentifier>{072ec182-2f38-4af7-8ea1-5ae46d90a183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0.BootScene">
+      <UniqueIdentifier>{728fcd5f-fd9b-42ad-b240-a723788f8966}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
